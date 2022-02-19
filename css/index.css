@@ -89,6 +89,7 @@ nav a:hover
     overflow: auto;
     text-align: center;
     caption-side: bottom;
+    word-wrap: break-word;
 }
 /* Below CSS will be beneficial once links are added */
 .contrib-table a
