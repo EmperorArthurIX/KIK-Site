@@ -3,8 +3,8 @@ body
     /* Margin none to spread the content to ends of page */
     margin: none;
     font-family: "Comfortaa", cursive;
-    height:100vh;
-    overflow: hidden;
+    /* height:100vh; */
+    /* overflow: hidden; */
     background-color: #7f5a83;
     background-image: linear-gradient(to top, transparent, #BCD4E6),
     linear-gradient(to right, #FAD2E1 0%, #BCD4E6 74%, #FAD2E1 95%);
@@ -53,4 +53,13 @@ nav a:hover
     border-radius: 100px;
     background-color: rgba(255, 255, 255, 0.75);
     color: black;
+}
+
+.bigcontainer
+{
+    display: grid;
+    grid-template-columns: 10% auto 10%;
+    grid-template-rows: 5% auto 10% ;
+    height: 100vh;
+    margin: auto;
 }
