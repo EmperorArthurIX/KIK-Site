@@ -55,17 +55,58 @@ nav a:hover
     color: black;
 }
 
-/* BELOW CODE NEEDS JS */
-/* nav a.active {
-  background-color: #04aa6d;
-  color: white;
-} */
-
 .bigcontainer
 {
     display: grid;
     grid-template-columns: 10% auto 10%;
-    grid-template-rows: 5% auto 10% ;
+    grid-template-rows: 5% auto auto;
     height: 100vh;
     margin: auto;
 }
+
+.contrib-table
+{
+    grid-column: 2;
+    grid-row: 2;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.contrib-table table
+{
+    table-layout: fixed;
+    width: 100%;
+    height: 60%;
+    margin: auto;
+    overflow: auto;
+    text-align: center;
+    caption-side: bottom;
+    word-wrap: break-word;
+}
+
+td a:link
+{
+    color: #000;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+td a:visited {
+    color: #000;;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+td a:hover {
+    color: #000;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+td a:active {
+    color: #000;
+    background-color: transparent;
+    text-decoration: underline;
+  }

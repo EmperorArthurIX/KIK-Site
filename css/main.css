@@ -54,18 +54,3 @@ nav a:hover
     background-color: rgba(255, 255, 255, 0.75);
     color: black;
 }
-
-/* BELOW CODE NEEDS JS */
-/* nav a.active {
-  background-color: #04aa6d;
-  color: white;
-} */
-
-.bigcontainer
-{
-    display: grid;
-    grid-template-columns: 10% auto 10%;
-    grid-template-rows: 5% auto 10% ;
-    height: 100vh;
-    margin: auto;
-}
